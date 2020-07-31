@@ -1,0 +1,121 @@
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	font-family: 'Raleway';font-size: 22px;
+	color:#272829;
+}
+html,body
+{
+	width:100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	font-family: 'Raleway';
+
+}
+.heading
+{
+	font-size: 3rem;
+	text-align: center;
+	font-family: 'Raleway';
+	margin-top: 30px;
+	font-weight: 600;
+}
+section
+{
+	font-family: 'Raleway';
+}
+/*Navbar styling*/
+.fixednav
+{
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+}
+
+/*Hero Section styling*/
+#hero 
+{
+	
+	height: 100%;
+	text-align: center;
+
+}
+.hero-img
+{
+background-image:url("https://www.capcitycreative.ca/wp-content/uploads/2017/01/slider-background.jpeg");
+height:100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+z-index: -1;
+margin-top: 0px;
+}
+.hero-txt
+{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	color:white; 
+	font-size: 2.5rem;	
+	font-family: 'Raleway';
+}
+
+
+/*Education starts here*/
+*
+{
+	box-sizing: border-box;
+}
+.row
+{
+margin: 0 -5px;
+}
+.col
+{
+width: 33%;
+float: left;
+overflow: hidden;
+padding: 20px;
+}
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+.card
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background-color: #f1f1f1;
+	overflow: hidden;
+	text-align: center;
+}
+/*Mobile view Section styling*/
+@media screen and (max-width: 600px) {
+
+  .hero-txt 
+  {
+    display: block;
+    font-size: 1rem;
+  }
+ .fixednav
+ {
+ 	position: sticky;
+ }
+}
+@media screen and (max-width: 600px) {
+	.col
+	{
+		width: 100%;
+
+		
+	}
+}
