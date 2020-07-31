@@ -1,0 +1,76 @@
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	font-family: "Open Sans",sans-serif;
+	color:#272829;
+}
+html,body
+{
+	width:100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+
+}
+.heading
+{
+	font-size: 3rem;
+	text-align: center;
+}
+/*Navbar styling*/
+.fixednav
+{
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+}
+
+/*Hero Section styling*/
+#hero 
+{
+	
+	height: 100%;
+	text-align: center;
+
+}
+.hero-img
+{
+background-image:url("https://www.capcitycreative.ca/wp-content/uploads/2017/01/slider-background.jpeg");
+height:100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+z-index: -1;
+margin-top: 0px;
+}
+.hero-txt
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	color:white; 
+	font-size: 2.5rem;	
+}
+
+
+
+/*Mobile view Section styling*/
+@media screen and (max-width: 600px) {
+
+  .hero-txt 
+  {
+    display: block;
+    font-size: 1.5rem;
+  }
+ .fixednav
+ {
+ 	position: sticky;
+ }
+
+}
