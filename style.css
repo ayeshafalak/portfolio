@@ -97,6 +97,7 @@ padding: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	background-color: #f1f1f1;
 	overflow: hidden;
+        height:500px;
 	text-align: center;
 }
 /*Mobile view Section styling*/
