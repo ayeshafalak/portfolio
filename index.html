@@ -16,7 +16,7 @@
 	<script>
     AOS.init();
     </script>
-	<section>
+	<div>
 	    <header  class="fixednav">
 	    	<nav class="navbar navbar-inverse">
              <div class="container-fluid">
@@ -34,6 +34,7 @@
                <li><a href="#education">Education</a></li>
                <li><a href="#skills">Skills</a></li>
                <li><a href="#internships">Internships</a></li>
+               <li><a href="#projects">Projects</a></li>
                <li><a href="#trainings">Trainings</a></li>
                <li><a href="#extracurricular">Extracurricular</a></li>
                <li><a href="#contact">Contact</a></li>
@@ -42,9 +43,9 @@
             </div>
            </nav>
         </header>
-	</section>
+	</div>
 	<!-- Hero Image starts here-->
-	<section id="hero">
+	<div id="hero">
 		<div class="hero-img">
 
 			<div class="hero-txt" >
@@ -54,11 +55,12 @@
      data-aos-duration="2000"><b>Student | Programmer | Web Developer | Graphic Designer</b></h5>
 			</div>
 		</div>
-	</section>
+	</div>
 	<!-- Hero Image ends here-->
 
 	<!-- Education starts here-->
 	<section id="education" class="education">
+		<br><br>
 		<h1 class="heading">EDUCATION</h1>
 		<br>
 	<div class="row">
@@ -101,51 +103,155 @@
 
 	<!-- Skills starts here-->
 	<section id="skills">
-		<h1 class="heading">Skills</h1>
+		<br><br>
+		<h1 class="heading">SKILLS</h1>
+		<div class="container-fluid">
+		<div class="col-md-6 skillbar" data-aos="zoom-in-right" data-aos-duration="1000">
+			<label for="HTML"><h4>HTML</h4></label>
+			<progress value="95" max="100" id="HTML"></progress>
+		</div>
+		<div class="col-md-6 skillbar" data-aos="zoom-in-left" data-aos-duration="1000">
+			<label for="CSS"><h4>CSS</h4></label>
+			<progress value="85" max="100" id="CSS"></progress>
+		</div>
+		<div class="col-md-6 skillbar" data-aos="zoom-in-right" data-aos-duration="1000">
+			<label for="bootstrap"><h4>Bootstrap</h4></label>
+			<progress value="85" max="100" id="bootstrap"></progress>
+		</div>
+		<div class="col-md-6 skillbar" data-aos="zoom-in-left" data-aos-duration="1000">
+			<label for="javascript"><h4>Javascript</h4></label>
+			<progress value="80" max="100" id="javascript"></progress>
+		</div>
+		<div class="col-md-6 skillbar" data-aos="zoom-in-right" data-aos-duration="1000">
+			<label for="jquery"><h4>JQuery</h4></label>
+			<progress value="80" max="100" id="jquery"></progress>
+		</div>
+		<div class="col-md-6 skillbar" data-aos="zoom-in-left" data-aos-duration="1000">
+			<label for="php"><h4>PHP</h4></label>
+			<progress value="90" max="100" id="php"></progress>
+		</div>
+		<div class="col-md-6 skillbar" data-aos="zoom-in-right" data-aos-duration="1000">
+			<label for="mysql"><h4>MySQL</h4></label>
+			<progress value="85" max="100" id="mysql"></progress>
+		</div>
+		<div class="col-md-6 skillbar" data-aos="zoom-in-left" data-aos-duration="1000">
+			<label for="java"><h4>Java</h4></label>
+			<progress value="90" max="100" id="java"></progress>
+		</div>
+		<div class="col-md-6 skillbar" data-aos="zoom-in-right" data-aos-duration="1000">
+			<label for="python"><h4>Python</h4></label>
+			<progress value="80" max="100" id="python"></progress>
+		</div>
+		<div class="col-md-6 skillbar" data-aos="zoom-in-left" data-aos-duration="1000">
+			<label for="c"><h4>C</h4></label>
+			<progress value="85" max="100" id="c"></progress>
+		</div>
+		</div>
 
 	</section>
 
 	<!-- Internships starts here-->
 	<section id="internships">
-		<h1 class="heading">Internships</h1>
+		<br><br>
+		<h1 class="heading">INTERNSHIPS</h1>
+		<div class="container-fluid">
+			<div class="row" data-aos="fade-up" data-aos-duration="1000">
+			<div class="col-md-6">
+				<img src="images\highqc.jpg" alt="certificate" class="certificate">
+			</div>
+			<div class="col-md-6">
+				<h3>Web Developer at HighQ</h3>
+				<p>Interned as a Web Developer at HighQ and worked on client-based projects.</p>
+			</div>
+			</div>
+			<br>
+			<div class="row" data-aos="fade-up" data-aos-duration="1000">
+			<div class="col-md-6">
+				<img src="images\ct.jpg" alt="certificate" class="certificate">
+			</div>
+			<div class="col-md-6">
+				<h3>Graphic Designer & Marketing Intern at CollegeTips.in</h3>
+				<p>Interned as a Graphic Designer at CollegeTips.in and<br> designed their posters for upcoming events.</p>
+			</div>
+			</div>
+			<br>
+			<div class="row" data-aos="fade-up" data-aos-duration="1000">
+			<div class="col-md-6">
+				<img src="images\ngoc.jpg" alt="certificate" class="certificate">
+			</div>
+			<div class="col-md-6">
+				<h3>Marketing Intern at Crazy for Success NGO</h3>
+				<p>Interned as a marketing person to promote the NGO.</p>
+			</div>
+			</div>
+				
+			</div>
 
+	</section>
+
+	<!-- Projects starts here-->
+	<section id="projects" class="projects">
+		<br><br>
+		<h1 class="heading">PROJECTS</h1>
+		<div class="container-fluid">
+			<div class="col-md-6 col-lg-12" data-aos="zoom-in" data-aos-duration="1000">
+				<h3>Covid19 Cases Tracker</h3>
+				<a href="http://covidtrackerindia.000webhostapp.com/">See Project</a>
+				<p>A simple single page website built in PHP and mySQL database which tracks the number of covid19 cases in India and displays them statewise.</p>
+			</div>
+			<br>
+			<div class="col-md-6 col-lg-12" data-aos="zoom-in" data-aos-duration="1000">
+				<h3>NGO Website</h3>
+				<a href="https://ayeshafalak.github.io/hq/">See Project</a>
+				<p>A multi-page responsive website with gallery developed as a client-based project while working as an intern at Highq.</p>
+			</div>
+			<br>
+			<div class="col-md-6 col-lg-12" data-aos="zoom-in" data-aos-duration="1000">
+				<h3>ART Studio Website</h3>
+				<a href="https://ayeshafalak.github.io/eachsketch.github.io/">See Project</a>
+				<p>A multi-page website built using bootsrap,javascipt & jquery to display the art work of an art studio.</p>
+			</div>
+			<br>
+			<div class="col-md-6 col-lg-12" data-aos="zoom-in" data-aos-duration="1000">
+				<h3>Gaming website</h3>
+				<a href="http://gamingisrealfun.000webhostapp.com/">See Project</a>
+				<p>A simple single page website built in PHP which includes basic games like TicTacToe & Rock Paper Scissors.</p>
+			</div>
 	</section>
 
 	<!-- Trainings starts here-->
 	<section id="trainings">
-		<h1 class="heading">Trainings</h1>
-                <div class="row">
-                <div class="col">
-                <div class="card">
-                <img src="images/IMG_20200801_004451.jpg" width="80%">
-                <h4>Python</h4>
-                <h5>Google</h5>
-                </div>
-                </div>
-     
-                <div class="col">
-                <div class="card">
-                <img src="images/IMG_20200801_004452.jpg" width="80%">
-                <h4>PHP</h4>
-                <h5>University of London</h5>
-                </div>
-                </div>
-                </div>
+		<h1 class="heading">TRAININGS</h1>
 
 	</section>
 
+
+
 	<!-- Extracurricular starts here-->
 	<section id="extracurricular">
-		<h1 class="heading">Extracurricular</h1>
+		<h1 class="heading">EXTRACURRICULAR</h1>
 
 	</section>
 
 
 	<!-- Contact starts here-->
-	<section id="contact">
-		<h1 class="heading">Contact</h1>
+	<section id="contact" class="contact">
+		<h1 class="heading">CONTACT</h1>
+		<div class="contact">
+			<h5><span class="glyphicon">&#x2709;</span> Mail me at <a href="mailto:ayeshafalak14@gmail.com">ayeshafalak14@gmail.com</a></h5>
+			<h5><i style="font-size:24px" class="fa">&#xf08c;</i>Connect with me via <a href="https://in.linkedin.com/in/ayesha-falak-987aa3189">Linkedin</a></h5>
+			<h5><i style="font-size:24px" class="fa">&#xf092;</i>Meet me at <a href="https://github.com/ayeshafalak">Github</a></h5>
+			<br><br>
+		</div>
 
 	</section>
+
+	<footer class="footer">
+		<div>
+			<p>Website Designed by Ayesha Falak</p>
+			<p>All Rights Reserved</p>
+		</div>
+	</footer>
 
 
 

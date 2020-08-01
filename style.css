@@ -23,18 +23,22 @@ html,body
 	text-align: center;
 	font-family: 'Raleway';
 	margin-top: 30px;
+	margin-bottom: 30px;
 	font-weight: 600;
 }
 section
 {
 	font-family: 'Raleway';
+
 }
+
 /*Navbar styling*/
 .fixednav
 {
 	position: fixed;
 	overflow: hidden;
 	width: 100%;
+	z-index: 1;
 }
 
 /*Hero Section styling*/
@@ -53,7 +57,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
-z-index: -1;
+z-index: -2;
 margin-top: 0px;
 }
 .hero-txt
@@ -99,7 +103,56 @@ padding: 20px;
 	overflow: hidden;
         height:200px;
 	text-align: center;
+
 }
+
+/*Skills Section styling*/
+.skillbar
+{
+	text-align: center;
+	font-size: 22px;
+	width: 100%;
+
+}
+
+/*Internships Section styling*/
+.certificate
+{
+	float: right;
+	width: 50%;
+	height: 30%;
+
+}
+/*Projects Section styling*/
+.projects
+{
+text-align: center;	
+}
+
+
+/*Contact Section styling*/
+.contact h5
+{
+	text-align: center;
+}
+
+
+
+
+/*Footer Section styling*/
+.footer
+{
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-family: 'Raleway';
+}
+.footer p
+{
+	margin-top: 10px;
+	padding: 5px;
+}
+
 /*Mobile view Section styling*/
 @media screen and (max-width: 600px) {
 
@@ -120,5 +173,14 @@ padding: 20px;
 		width: 100%;
 
 		
+	}
+	.skillbar
+	{
+		font-size: 18px;
+	}
+	.certificate
+	{
+		width: 30%;
+		height: 20%;
 	}
 }
