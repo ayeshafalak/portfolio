@@ -101,7 +101,7 @@ padding: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	background-color: #f1f1f1;
 	overflow: hidden;
-        height:200px;
+    height:200px;
 	text-align: center;
 
 }
@@ -119,8 +119,8 @@ padding: 20px;
 .certificate
 {
 	float: right;
-	width: 50%;
-	height: 30%;
+	width: 40%;
+	
 
 }
 /*Projects Section styling*/
@@ -128,6 +128,47 @@ padding: 20px;
 {
 text-align: center;	
 }
+
+
+/*Training Section styling*/
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.col2 {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+
+}
+
+@media screen and (max-width: 650px) {
+  .col2 {
+    width: 100%;
+    display: block;
+    padding: 10px 10px;
+    ;
+  }
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  overflow: hidden;
+
+
+}
+
+/*Extracurricular Section styling*/
+#extracurricular
+{
+	text-align: center;
+}
+
+
 
 
 /*Contact Section styling*/
