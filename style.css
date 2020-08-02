@@ -116,12 +116,28 @@ padding: 20px;
 }
 
 /*Internships Section styling*/
+.col3 {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+
+}
+
+.card3 {
+  padding: 3px;
+  margin-bottom: 5px;
+  text-align: center;
+  overflow: hidden;
+}
 .certificate
 {
-	float: right;
-	width: 40%;
-	
-
+	width: 25%;
+}
+#ngoc
+{
+	width: 16%;
 }
 /*Projects Section styling*/
 .projects
@@ -158,8 +174,6 @@ text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   overflow: hidden;
-
-
 }
 
 /*Extracurricular Section styling*/
@@ -221,7 +235,15 @@ text-align: center;
 	}
 	.certificate
 	{
-		width: 30%;
-		height: 20%;
+		width: 40%;
+		
+	}
+	#ngoc
+	{
+		width: 40%;
+	}
+	.col3
+	{
+		width: 100%;
 	}
 }
